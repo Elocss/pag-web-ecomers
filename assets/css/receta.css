@@ -1,0 +1,35 @@
+.receta{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    
+}
+.receta__imagen{
+    height: 140px;
+}
+@media screen and (min-width:0){
+    .receta{
+         font-size: 1.3rem;
+         margin-right: 1rem;
+        width: 25%;
+}
+    }
+
+@media screen and (min-width:768px{
+    .receta{
+    
+       font-size:1.75rem ;
+       margin-right: 2.5rem;
+        width:cal(33% -2.5rem);
+}
+}
+
+
+@media screen and (min-width:1022px{
+    .receta{
+    
+       font-size:1.75rem ;
+       margin-right: 5rem;
+        width:25%  ;
+}
